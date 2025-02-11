@@ -1,0 +1,4 @@
+Métricas, monitoramento e alertas 
+Para manter sistemas confiáveis, é importante medir seu desempenho em relação às suas metas e criar alertas que sinalizem quando seu orçamento de erro estiver ameaçado.
+
+O Google Cloud fornece um recurso de Monitoramento de SLO que ajuda a reduzir a complexidade do monitoramento e do alerta. Com o [Monitoramento de SLO](https://cloud.google.com/stackdriver/docs/solutions/slo-monitoring) , o usuário seleciona os SLIs (métricas de confiabilidade) e SLOs (valores-alvo) desejados, e a estrutura lida com as manipulações matemáticas necessárias para monitorar SLOs e orçamentos de erro.
