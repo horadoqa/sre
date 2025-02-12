@@ -26,4 +26,5 @@
 Em resumo, o SRE busca transformar as práticas de operações em uma abordagem mais automatizada e orientada por métricas, utilizando técnicas de engenharia de software para garantir que os sistemas operem de maneira eficiente e confiável.
 
 - [datadog](./datadog/datadog.md)
+- [Learning Center Datadog](https://learn.datadoghq.com/courses/tps-workshop-datadog-101-for-sres)
 - [prometheus + Grafana](./prometheus-grafana/)

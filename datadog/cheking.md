@@ -19,6 +19,16 @@ Se você tem acesso à instância via SSH, pode se conectar à instância e veri
   - Para verificar o status do agente, execute o seguinte comando:
     ```bash
     sudo systemctl status datadog-agent
+    
+● datadog-agent.service - Datadog Agent
+     Loaded: loaded (/usr/lib/systemd/system/datadog-agent.service; enabled; preset: disabled)
+     Active: active (running) since Tue 2025-02-11 19:29:17 UTC; 36s ago
+   Main PID: 2593 (agent)
+      Tasks: 9 (limit: 1111)
+     Memory: 185.2M
+        CPU: 1.938s
+     CGroup: /system.slice/datadog-agent.service
+             └─2593 /opt/datadog-agent/bin/agent/agent run -p /opt/datadog-agent/run/agent.pid
     ```
     Este comando irá mostrar o status do Datadog Agent, incluindo se está em execução ou se falhou ao iniciar.
 

@@ -1,0 +1,7 @@
+init_config:
+
+instances:
+  - nginx_status_url: "http://127.0.0.1:8080/status"
+    tags:
+      - env:production
+    collect_default_metrics: true  # Coleta as métricas padrão do NGINX
