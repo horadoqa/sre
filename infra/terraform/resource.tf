@@ -10,7 +10,7 @@ resource "aws_instance" "datadog" {
     Name = "datadog"
   }
 
-  user_data = file("agent.sh")
+  # user_data = file("agent.sh")
 }
 
 resource "aws_key_pair" "horadoqa" {
